@@ -1,0 +1,47 @@
+Create an environment:
+    Create a project folder and a venv folder within:
+        > mkdir    PYTHON_FLASK
+        > cd PYTHON_FLASK
+        > py -3 -m venv venv
+
+Activate the environment:
+Before you work on your project, activate the corresponding environment:
+    > venv\Scripts\activate
+
+Install Flask:
+Within the activated environment, use the following command to install Flask:
+    > $ pip install Flask
+
+Setting environment to run flask in vs code:
+1. In VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)). 
+Then select the Python: Select Interpreter command:
+
+2. From the list, select the virtual environment in your project folder 
+that starts with ./.venv or .\.venv:
+
+3. Install kernel for venv to run jupyter notebook
+
+4. use Terminal: Select Default Shell to set "Command Prompt".
+   which creates a terminal and automatically activates the virtual environment by
+   running its activation script.
+
+Installing requireed libraries:
+
+python -m pip install matplotlib
+python -m pip install pandas
+python -m pip install scikit-learn
+python -m pip install matplotlib
+python -m pip install numpy
+
+Running flask app in cmd terminal with virtual environment:
+
+>>python app__.py
+
+>server will be running 
+>gives ip address of the website
+>quit the server runnig usinng ctrl+C 
+-------------------------------------------------------------------------
+Reference:https://www.youtube.com/watch?v=3L_-JbFxftM&t=13s
+
+training datasets: 2017,2018,2019
+testing datasets: 2020
